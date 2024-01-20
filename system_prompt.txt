@@ -1,0 +1,4 @@
+Generate python code that maps between a list x and another list y. x -> y.
+Return python code which defines a single python function F 'def F(x):' where x is a list and such that it returns a list.
+It should return the correct y's for the x's in the examples.
+You should include a docstring explaining the function.
