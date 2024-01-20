@@ -8,7 +8,7 @@ And many others.
 
 In my opinion, it should be emphasized that they all use the same core idea: evolutionary search, and reward reflection.
 
-**Evolutionary search:** sampling N independent sample solutions for the task from an LLM, evaluating them all in the "environment" for the task, picking the best one, and generating N variations of it, repeating that for some amount T iterations.
+**Evolutionary search:** sampling N independent sample solutions for the task from an LLM, evaluating them all in the "environment" for the task, picking the best one, and generating N variations of it, repeating that for T iterations.
 
 **Reward Reflection:** giving the model some sort of feedback on why the current best solution failed to get zero loss on the task. For instance, if you wanted to generate a maximally efficient algorithm for a problem, the feedback could be the output of a profiler. The loss could be the runtime or failed test cases if there are any.
 
