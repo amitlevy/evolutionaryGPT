@@ -1,7 +1,5 @@
 # Evolutionary GPT: Expert-Level Performance on Tasks with Environmental Feedback
-The simplest state-of-the-art arbitrary task solution generator using gpt-4 API calls and evolutionary search.
 
-## Introduction
 There has recently been a slew of papers achieving expert-level performance on different tasks:
 * AlphaGeometry by DeepMind
 * Eureka: Human-Level Reward Design
