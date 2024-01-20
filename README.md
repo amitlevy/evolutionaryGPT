@@ -46,7 +46,7 @@ The python version I tested it on is 3.10.
 export OPENAI_API_KEY='yourkey'
 ```
 
-5. Run the command (**Careful**! It'll run **exec()** on GPT-4 generated code, and cost about 10 cents)
+4. Run the command (**Careful**! It'll run **exec()** on GPT-4 generated code, and cost about 10 cents)
 ```
 python3 main.py
 ```
