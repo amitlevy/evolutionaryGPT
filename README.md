@@ -14,6 +14,7 @@ In my opinion, it should be emphasized that they all use the same core idea: evo
 
 The repositories I saw so far have (in my opinion) all been engineered to solve a very specific task and are difficult to extend, or unnecessarily complex, so I've decided to create EvolGPT as a simple and generic version of this method. The current demo task is taken from the Inductive Reasoning paper:
 
+
 ```
 Find the rule mapping X to Y in the following examples and express it as a Python function:
 
@@ -27,6 +28,7 @@ Find the rule mapping X to Y in the following examples and express it as a Pytho
 
 ...
 ```
+
 
 I've verified it can indeed be solved consistently with T=3 and N=5 (the hyperparameters used in the paper).
 More difficult tasks should use higher T, N, for instance, Eureka used T=5 and N=16.
