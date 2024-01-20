@@ -10,7 +10,7 @@ They all use the same idea: some variant of evolutionary search, and reward refl
 
 **Evolutionary search:** sampling N independent sample solutions for the task from an LLM, evaluating them all in the "environment" for the task, picking the best one, and generating N variations of it, repeating that for T iterations.
 
-**Reward Reflection:** giving the model some sort of feedback on why the current best solution failed to get zero loss on the task. For instance, if you wanted to generate a maximally efficient algorithm for a problem, the feedback could be the output of a profiler. The loss could be the runtime or failed test cases if there are any.
+**Reward Reflection:** giving the model some sort of feedback on why the current best solution failed to get zero loss on the task. For instance, if you wanted to generate a maximally efficient algorithm for a problem, the feedback could be the output of a profiler.
 
 The repositories I saw so far have (in my opinion) all been engineered to solve a very specific task and are difficult to extend, or unnecessarily complex, so I've decided to create EvolGPT as a simple and generic version of this method. The current demo task is taken from the Inductive Reasoning paper:
 
