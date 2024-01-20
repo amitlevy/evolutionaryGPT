@@ -16,9 +16,13 @@ The repositories I saw so far have (in my opinion) all been engineered to solve 
 
 
 Find the rule mapping X -> Y in the following examples and express it as a Python function:
+
 [97, 97, 97, 97] -> [97, 97, 97]
+
 [4, 4, 4] -> [4, 4]
+
 [33, 0, 4, 1, 2, 24, 66] -> []
+
 [76, 42, 17, 76, 17] -> [76, 17]
 
 And I've verified it can indeed be solved consistently with T=3 and N=5 (the hyperparameters used in the paper).
