@@ -1,6 +1,7 @@
 # EvolGPT: Expert-Level Performance on Tasks with Environmental Feedback
+The simplest state-of-the-art arbitrary task solution generator.
 
-There has recently been a slew of papers achieving expert-level performance on different tasks using an LLM:
+There has recently been a slew of papers achieving expert-level performance on different tasks:
 * AlphaGeometry by DeepMind
 * Eureka: Human-Level Reward Design
 * Phenomenal Yet Puzzling: Testing Inductive Reasoning
