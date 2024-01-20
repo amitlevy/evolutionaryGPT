@@ -1,4 +1,4 @@
-# EvolGPT: Expert-Level Performance on Tasks with Fast Feedback
+# EvolGPT: Expert-Level Performance on Tasks with Environmental Feedback
 
 There has recently been a slew of papers achieving expert-level performance on different tasks with environmental feedback using an LLM:
 * AlphaGeometry by DeepMind
