@@ -35,18 +35,18 @@ More difficult tasks should use higher T, N, for instance, Eureka used T=5 and N
 
 1. Git clone the repository
 
-2. Install the requirements:
+2. Install the requirements
 ```
 pip3 install -r requirements.txt
 ```
 The python version I tested it on is 3.10.
 
-3. Export your API key as an environment variable:
+3. Export your API key as an environment variable
 ```
 export OPENAI_API_KEY='yourkey'
 ```
 
-5. Run the command (**Careful**! It'll run **exec()** on GPT-4 generated code, and cost about 10 cents):
+5. Run the command (**Careful**! It'll run **exec()** on GPT-4 generated code, and cost about 10 cents)
 ```
 python3 main.py
 ```
