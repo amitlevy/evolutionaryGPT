@@ -15,7 +15,7 @@ Reward Reflection: giving the model some sort of feedback on why the current bes
 The repositories I saw so far have (in my opinion) all been engineered to solve a very specific task and are difficult to extend, or unnecessarily complex, so I've decided to create EvolGPT as a simple and generic version of this method. The current demo task is taken from the Inductive Reasoning paper:
 
 ```
-Find the rule mapping X -> Y in the following examples and express it as a Python function:
+Find the rule mapping X to Y in the following examples and express it as a Python function:
 
 [97, 97, 97, 97] -> [97, 97, 97]
 
