@@ -28,7 +28,7 @@ Find the rule mapping X to Y in the following examples and express it as a Pytho
 ...
 ```
 
-And I've verified it can indeed be solved consistently with T=3 and N=5 (the hyperparameters used in the paper).
+I've verified it can indeed be solved consistently with T=3 and N=5 (the hyperparameters used in the paper).
 More difficult tasks should use higher T, N, for instance, Eureka used T=5 and N=16.
 
 ## Usage:
@@ -52,6 +52,4 @@ python3 main.py
 ```
 
 ## 🛡 Disclaimer
-
-Disclaimer
 This project, EvolGPT, is an experimental application and is provided "as-is" without any warranty, express or implied. By using this software, you agree to assume all risks associated with its use, including but not limited to data loss, system failure, or any other issues that may arise.
