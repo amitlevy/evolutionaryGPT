@@ -30,7 +30,7 @@ Find the rule mapping X to Y in the following examples and express it as a Pytho
 ```
 
 
-I've verified it can indeed be solved consistently with T=3 and N=5 (the hyperparameters used in the paper).
+I've verified it is consistently solved with T=3 and N=5 (the hyperparameters used in the paper).
 More difficult tasks should use higher T, N, for instance, Eureka used T=5 and N=16.
 
 ## Usage:
