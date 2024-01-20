@@ -6,6 +6,7 @@ There has recently been a slew of papers achieving expert-level performance on d
 * AlphaGeometry by DeepMind
 * Eureka: Human-Level Reward Design
 * Phenomenal Yet Puzzling: Testing Inductive Reasoning
+
 And many others. 
 
 They all use the same idea: some variant of evolutionary search, and reward reflection.
