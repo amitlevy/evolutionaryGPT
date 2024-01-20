@@ -1,5 +1,5 @@
 # EvolGPT: Expert-Level Performance on Tasks with Environmental Feedback
-The simplest state-of-the-art arbitrary task solution generator.
+The simplest state-of-the-art arbitrary task solution generator using gpt-4 API calls and evolutionary search.
 
 # Introduction
 There has recently been a slew of papers achieving expert-level performance on different tasks:
