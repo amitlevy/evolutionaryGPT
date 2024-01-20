@@ -6,7 +6,7 @@ There has recently been a slew of papers achieving expert-level performance on d
 * Phenomenal Yet Puzzling: Testing Inductive Reasoning
 And many others. 
 
-it should be emphasized that they all use the same core idea: evolutionary search, and reward reflection.
+They all use the same idea: some variant of evolutionary search, and reward reflection.
 
 **Evolutionary search:** sampling N independent sample solutions for the task from an LLM, evaluating them all in the "environment" for the task, picking the best one, and generating N variations of it, repeating that for T iterations.
 
