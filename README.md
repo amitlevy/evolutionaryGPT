@@ -1,12 +1,6 @@
 # Evolutionary GPT: Expert-Level Performance on Tasks with Environmental Feedback
 
-There has recently been a slew of papers achieving expert-level performance on different tasks:
-* AlphaGeometry by DeepMind
-* Eureka: Human-Level Reward Design
-* Phenomenal Yet Puzzling: Testing Inductive Reasoning
-
-And many others. 
-
+There has recently been a slew of papers achieving expert-level performance on different tasks, including AlphaGeometry from DeepMind, Eureka, and Hypothesis Refinement.
 They all use the same idea: some variant of evolutionary search, and reward reflection.
 
 **Evolutionary search:** sampling N independent sample solutions for the task from an LLM, evaluating them all in the "environment" for the task, picking the best one, and generating N variations of it, repeating that for T iterations.
