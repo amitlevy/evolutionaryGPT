@@ -7,7 +7,7 @@ They all use the same idea: some variant of evolutionary search, and reward refl
 
 **Reward Reflection:** giving the model some sort of feedback on why the current best solution failed to get zero loss on the task. For instance, if you wanted to generate a maximally efficient algorithm for a problem, the feedback could be the output of a profiler.
 
-The repositories that currently exist have all been engineered to solve a very specific task, or unnecessarily complex, so I've decided to create evolutionaryGPT as a simple and generic version of this method that can be easily modified to work for any task.
+The repositories that currently exist have all been engineered to solve a very specific task, or are unnecessarily complex, so I've decided to create evolutionaryGPT as a simple and generic version of this method that can be easily modified to work for any task.
 
 ## Demo Task
 The current demo task (seen below) is taken from the Hypothesis Refinement paper, another simple example is solving a LeetCode problem with the test cases as the feedback mechanism.
