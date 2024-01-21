@@ -10,7 +10,7 @@ They all use the same idea: some variant of evolutionary search, and reward refl
 The repositories I saw so far have (in my opinion) all been engineered to solve a very specific task and are difficult to extend, or unnecessarily complex, so I've decided to create EvolGPT as a simple and generic version of this method. 
 
 ## Demo Task
-The current demo task is taken from the Inductive Reasoning paper:
+The current demo task (seen below) is taken from the Hypothesis Refinement paper, another simple example is solving a LeetCode problem with the test cases as the feedback mechanism.
 
 
 ```
