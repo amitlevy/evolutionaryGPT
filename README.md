@@ -31,7 +31,7 @@ Find the rule mapping X to Y in the following examples and express it as a Pytho
 It is consistently solved by evolutionaryGPT with T=3 and N=5 (the hyperparameters used in the paper).
 More difficult tasks should use higher T, N, for instance, Eureka used T=5 and N=16.
 
-## Running the demo:
+## Running the demo
 
 1. Git clone the repository
 
@@ -51,7 +51,7 @@ export OPENAI_API_KEY='yourkey'
 python3 main.py
 ```
 
-## Changing the task:
+## Changing the task
 I believe the code is relatively well organized and commented. To change the task you need to modify evaluate.py and system_prompt.txt. To change the hyperparameters look inside config.yaml.
 
 ## 🛡 Disclaimer
