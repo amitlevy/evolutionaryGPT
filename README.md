@@ -1,6 +1,6 @@
 # Evolutionary GPT: Expert-Level Performance on Tasks with Environmental Feedback
 
-There have recently been a slew of papers achieving expert-level performance on different tasks, including [AlphaGeometry](https://www.nature.com/articles/s41586-023-06747-5) from DeepMind, [Eureka](https://arxiv.org/abs/2310.12931), and [Hypothesis Refinement](https://openreview.net/pdf?id=bNt7oajl2a).
+There have recently been a slew of papers achieving expert-level performance on different tasks, including [Eureka](https://arxiv.org/abs/2310.12931), and [Hypothesis Refinement](https://openreview.net/pdf?id=bNt7oajl2a).
 They all use the same idea: some variant of evolutionary search, and reward reflection.
 
 **Evolutionary Search:** sampling N independent sample solutions for the task from an LLM, evaluating them all in the "environment" for the task, picking the best one, and generating N variations of it, repeating that for T iterations.
